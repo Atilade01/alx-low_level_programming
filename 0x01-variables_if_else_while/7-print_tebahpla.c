@@ -3,7 +3,7 @@
 /**
  * main - main entry of a program
  * Return: return 0 (zero)
- * */
+ */
 int main(void)
 {
 	int x = 25;
