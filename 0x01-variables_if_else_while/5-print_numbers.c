@@ -1,15 +1,14 @@
 #include <stdio.h>
-
 /**
  * main - main entry of a program
- * Return 0
+ * Return: return 0 (zero)
  */
 
 int main(void)
 {
 	int x = 0;
 	
-	while (x < 10)
+	while(x < 10)
 	{
 		printf("%d", x);
 		x++;
