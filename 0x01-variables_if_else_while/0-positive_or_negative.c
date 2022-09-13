@@ -5,7 +5,6 @@
 /**
  * main - function entry point
  * Return: returns 0 (zero)
- * 
  * betty style doc for function main goes there
  */
 int main(void)
