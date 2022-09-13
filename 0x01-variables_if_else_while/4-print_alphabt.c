@@ -9,7 +9,7 @@ int main(void)
 {
 	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
 	int x = 0;
-	
+
 	while (x <= 25)
 	{
 		if (alphabet[x] == 'q' || alphabet[x] == 'e')
