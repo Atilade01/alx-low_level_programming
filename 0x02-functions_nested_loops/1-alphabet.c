@@ -1,12 +1,10 @@
 #include "main.h"
 
 /**
- * prototype - entry point
+ * print_alphabet - Prints lowercase letters
  * Description: function to print alphabets in lowercase
  * Return: void
  */
-
-
 
 void print_alphabet(void)
 {
