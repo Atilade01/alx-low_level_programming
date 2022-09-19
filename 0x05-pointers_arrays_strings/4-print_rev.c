@@ -9,7 +9,6 @@
 void print_rev(char *s)
 {
 	int count;
-	int counter;
 	int length;
 
 	length = 0;
