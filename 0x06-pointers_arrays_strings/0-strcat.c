@@ -16,16 +16,16 @@ char *_strcat(char *dest, char *src)
 	counter = 0;
 
 	while (dest[count] != '\0')
+	{
 		count++;
+	}
 
 	while (src[counter] != '\0')
 	{
 		dest[count] = src[counter];
-		count++;
 		counter++;
+		count++;
 	}
-
 	dest[count]  = '\0';
-
 	return (dest);
 }
