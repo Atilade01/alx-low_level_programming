@@ -16,10 +16,7 @@ char *_strcat(char *dest, char *src)
 	counter = 0;
 
 	while (dest != '\0')
-	{
 		count++;
-	}
-	count = count + 1;
 
 	while (src[counter] != '\0')
 	{
