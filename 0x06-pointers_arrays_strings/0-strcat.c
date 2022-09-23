@@ -4,7 +4,7 @@
  * @dest: destination string
  * @src: appended string
  *
- * Return - return type of char
+ * Return: return type of char
  */
 
 char *_strcat(char *dest, char *src)
