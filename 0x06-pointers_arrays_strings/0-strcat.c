@@ -21,12 +21,12 @@ char *_strcat(char *dest, char *src)
 	}
 	count = count + 1;
 
-	if (dest[count] == '\0')
+	while (src[counter] != '\0')
 	{
-		while ( counter ++)
-		{
-			dest[count] = src[counter];
-		}
+		dest[count] = src[counter];
+		count++;
+		counter++;
 	}
-	dest[counter] = '\0';
+	dest[count]  = '\0';
+	return (dest);
 }
