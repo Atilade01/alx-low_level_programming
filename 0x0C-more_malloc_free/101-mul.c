@@ -71,6 +71,7 @@ char *iterate_zeroes(char *str)
 int get_digit(char c)
 {
 	int digit = c - '0';
+
 	if (digit < 0 || digit > 9)
 	{
 		printf("Error\n");
